@@ -14,7 +14,7 @@ Wifi_Scanner est un outil simple de balayage du réseau local pour trouver les a
 2. Téléchargez le code source de Wifi_Scanner depuis ce dépôt GitHub.
 
    ```
-   git clone <lien-du-dépôt>
+   git clone https://github.com/SpgBeats/wifi_scanner
    ```
 
 3. Ouvrez un terminal ou une invite de commandes et accédez au répertoire du projet.
