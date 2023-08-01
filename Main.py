@@ -1,23 +1,29 @@
 import socket
 import os
-import colorama
-
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-colorama.init(autoreset=True)
-
-print(colorama.Fore.RED + "  _    _ ___________ _____             _____ _____  ___  _   _ _   _ ___________   ")
-print(colorama.Fore.RED + " | |  | |_   _|  ___|_   _|           /  ___/  __ \/ _ \| \ | | \ | |  ___| ___ \  ")
-print(colorama.Fore.RED + " | |  | | | | | |_    | |______ ______\ `--.| /  \/ /_\ \  \| |  \| | |__ | |_/ /  ")
-print(colorama.Fore.RED + " | |/\| | | | |  _|   | |______|______|`--. \ |   |  _  | . ` | . ` |  __||    /   ")
-print(colorama.Fore.RED + " \  /\  /_| |_| |    _| |_            /\__/ / \__/\ | | | |\  | |\  | |___| |\ \   ")
-print(colorama.Fore.RED + "  \/  \/ \___/\_|    \___/            \____/ \____|_| |_|_| \_|_| \_|____/\_| \_|  ")
-print(colorama.Fore.RESET + " ")
-
+print("  _    _ ___________ _____             _____ _____  ___  _   _ _   _ ___________  ")
+print(" | |  | |_   _|  ___|_   _|           /  ___/  __ \/ _ \| \ | | \ | |  ___| ___ \ ")
+print(" | |  | | | | | |_    | |______ ______\ `--.| /  \/ /_\ \  \| |  \| | |__ | |_/ / ")
+print(" | |/\| | | | |  _|   | |______|______|`--. \ |   |  _  | . ` | . ` |  __||    /  ")
+print(" \  /\  /_| |_| |    _| |_            /\__/ / \__/\ | | | |\  | |\  | |___| |\ \  ")
+print("  \/  \/ \___/\_|    \___/            \____/ \____|_| |_|_| \_|_| \_|____/\_| \_|  ")
+print(" ")
 
 print("Appuyez sur Entrée pour démarrer le programme...")
 input()
+
+os.system('cls' if os.name == 'nt' else 'clear')
+
+
+print("  _    _ ___________ _____             _____ _____  ___  _   _ _   _ ___________  ")
+print(" | |  | |_   _|  ___|_   _|           /  ___/  __ \/ _ \| \ | | \ | |  ___| ___ \ ")
+print(" | |  | | | | | |_    | |______ ______\ `--.| /  \/ /_\ \  \| |  \| | |__ | |_/ / ")
+print(" | |/\| | | | |  _|   | |______|______|`--. \ |   |  _  | . ` | . ` |  __||    /  ")
+print(" \  /\  /_| |_| |    _| |_            /\__/ / \__/\ | | | |\  | |\  | |___| |\ \  ")
+print("  \/  \/ \___/\_|    \___/            \____/ \____|_| |_|_| \_|_| \_|____/\_| \_|  ")
+print(" ")
 
 def scan_network():
     try:
@@ -44,3 +50,7 @@ def scan_network():
 
 if __name__ == "__main__":
     scan_network()
+
+
+print(" ")
+print("Pour acceder aux interfaces web des appareills: http://xxx.xxx.x.xx.")
